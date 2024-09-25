@@ -6,7 +6,7 @@ import { FiGithub } from "react-icons/fi";
 
 const Contact = () => {
   return (
-    <Stack py={4}>
+    <Stack py={4} color={"white"}>
       <Flex alignItems={"center"} gap={2}>
         <Icon as={MdOutlineMailOutline} boxSize={8} />
         <Text fontSize={{ base: "lg", md: "2xl" }} fontWeight={"extrabold"}>

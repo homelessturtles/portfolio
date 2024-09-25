@@ -33,12 +33,16 @@ const Hero = () => {
           >
             Hi, I'm Brian!
           </Text>
-          <Text fontWeight={"bold"} fontSize={{ base: "small", md: "md" }}>
+          <Text
+            fontWeight={"bold"}
+            fontSize={{ base: "small", md: "md" }}
+            color={"white"}
+          >
             Recent CS Grad / Coding Instructor
           </Text>
         </Stack>
       </Flex>
-      <Flex gap={8} mt={3} alignItems={"center"}>
+      <Flex gap={8} mt={3} alignItems={"center"} color={"white"}>
         <Flex gap={3} display={{ base: "none", md: "flex" }}>
           <a href="https://github.com/homelessturtles">
             <Icon as={FiGithub} boxSize={8} />

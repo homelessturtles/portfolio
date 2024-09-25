@@ -17,7 +17,7 @@ import Contact from "./Contact";
 function App() {
   return (
     <DarkMode>
-      <Stack minH={"100vh"}>
+      <Stack minH={"100vh"} bg="gray.900" color={"white"}>
         <Hero />
         <Tabs variant="enclosed" px={10} py={10}>
           <TabList>
