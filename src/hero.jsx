@@ -50,13 +50,6 @@ const Hero = () => {
             <Icon as={MdOutlineMailOutline} boxSize={9} />
           </a>
         </Flex>
-        <Button
-          onClick={toggleColorMode}
-          colorScheme={colorMode === "light" ? "blue" : "yellow"}
-          size={{ base: "sm", sm: "md" }}
-        >
-          {colorMode === "light" ? <IoMoon /> : <LuSun size={20} />}
-        </Button>
       </Flex>
     </Flex>
   );

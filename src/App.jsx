@@ -6,6 +6,7 @@ import {
   TabPanels,
   TabPanel,
   TabList,
+  DarkMode,
 } from "@chakra-ui/react";
 import Navbar from "./Navbar";
 import Hero from "./hero";
@@ -15,7 +16,7 @@ import Contact from "./Contact";
 
 function App() {
   return (
-    <>
+    <DarkMode>
       <Stack minH={"100vh"}>
         <Hero />
         <Tabs variant="enclosed" px={10} py={10}>
@@ -37,7 +38,7 @@ function App() {
           </TabPanels>
         </Tabs>
       </Stack>
-    </>
+    </DarkMode>
   );
 }
 
