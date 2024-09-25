@@ -41,7 +41,7 @@ const Projects = () => {
             </Text>
           </Stack>
         }
-        link={"https://youtu.be/48wo5KINI_g?si=wi4ig7guC2YMatsA"}
+        link={"https://rapidshorts.onrender.com"}
       />
 
       <ProjectCard
